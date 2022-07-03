@@ -50,7 +50,7 @@ section > div > ul{
 }
 .sm-icon {
     width: 30px;
-        margin-right: 15%;
+        /* margin-right: 15%; */
 }
 section {
     display: flex;
@@ -95,4 +95,18 @@ a {
     header{
         background-image: url(../images/bg-header-mobile.png);
     }
+    section{
+        display: block; 
+        text-align: center;
+    }
+    section > div > ul{
+        list-style: none;
+        display: block;
+        margin-top: 2%;
+    }
+    .sm {
+        display: flex;
+        align-items: center;  
+        justify-content: space-evenly;
+}
    }
